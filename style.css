@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#FaixaSuperior{
+    background-color: #303030;
+    width: 1440px;
+    height: 475px;
+}
+
+#TituloSuperior{
+    color: #FFFFFF;
+    position: absolute;
+    width: 1024px;
+    height: 72px;
+    left: 62px;
+    top: 206px;
+    font-weight: 600;
+    font-size: 58px;
+}
+
+#TextoSuperior{
+    color: #FFFFFF;
+    position: absolute;
+    height: 28px;
+    width: 1024px;
+    left: 70px;
+    top: 298px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#FaixaInformacional{
+    background-color: #F9F9F9;
+    width: 1440px;
+    height: 229px;
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    border: 0px;
+
+}
+
+.valor{
+    color: black;
+    width: 292px;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 75px;
+    margin-left: 110px;
+    margin-bottom: 0px;
+    
+}
+
+.info{
+    color: black;
+    width: 361px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 110px;
+    border: 0px;
+}
+
+#Centro{
+    background-color: white;
+    width: 1440px;
+    height: 229px;
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    border: 0px;
+}
+
+#Titulo{
+    color: black;
+    width: 735px;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 250px;
+    margin-left: 70px;
+}
+
+#Texto{
+    color: black;
+    width: 735px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+#Foto{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+#Formulario{
+    background-color: #303030;
+    position:absolute;
+    top: 1550px;
+    width: 1440px;
+    height: 638px;
+    text-align: center;
+}
+
+#TextoFormulario{
+    Color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 87px;
+
+}
+
+input{
+    background-color: #ffffff;
+    color: #3030304f;
+    font-family: "Raleway";
+    margin-top: 50px;
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+button{
+    background-color: #C07212;
+    color: white;
+    font-family: "Raleway";
+    margin-top: 75px;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e69129;
+    color: white;
+}
